@@ -22,7 +22,7 @@ void imprime_lista(Lista* l);
 void libera_lista(Lista* l);
 
 // Retorna a quantidade de nós da lista com valores menores que x
-int qtd menores lista (Lista* l, int x);
+int qtd_menores_lista(Lista* l, int x);
 
 // Insere um valor num novo nó no fim de uma lista
-Lista* insere fim lista (Lista* l, int x); 
+Lista* insere_fim_lista(Lista* l, int x); 
